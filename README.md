@@ -8,7 +8,7 @@
 *TODO: the above badges that indicate python version and package version will only work if your package is on PyPI.
 If you don't plan to publish to PyPI, you can remove them.*
 
-pyospackage_jacksayshi is a project that (describe what it does here).
+pyospackage_jacksayshi is a project that (adds and subtracts two numbers).
 
 ## Get started
 
