@@ -33,10 +33,7 @@ classifiers = [
 # TODO: add keywords
 keywords = []
 # TODO: add dependencies
-dependencies = [
-    "numpy>=2.4.4",
-    "pandas>=3.0.2",
-]
+dependencies = []
 
 [project.urls]
 Homepage = "https://github.com/jacksayshi/pyospackage_jacksayshi"
@@ -46,9 +43,7 @@ Documentation = "https://github.com/jacksayshi/pyospackage_jacksayshi/blob/main/
 # Note: update this url when you have published your package to pypi. (or delete it) using Download :
 
 [project.optional-dependencies]
-plot = [
-    "bokeh>=3.9.0",
-]
+
 
 
 [dependency-groups]
