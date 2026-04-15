@@ -15,7 +15,7 @@ name = "pyospackage_jacksayshi"
 # You can chose to use dynamic versioning with hatch or static where you add it manually.
 version = "0.1.0"
 
-description = "package to add two numbers"
+description = "package to perform arithmetic operations on 2 numbers (add, subtract)"
 authors = [
     { name = "Santosh Iragavarapu", email = "testemail@gmail.com" },
 ]
@@ -40,8 +40,7 @@ Homepage = "https://github.com/jacksayshi/pyospackage_jacksayshi"
 "Source Code" = "https://github.com/jacksayshi/pyospackage_jacksayshi"
 "Bug Tracker" = "https://github.com/jacksayshi/pyospackage_jacksayshi/issues"
 Documentation = "https://github.com/jacksayshi/pyospackage_jacksayshi/blob/main/README.md"
-# Note: update this url when you have published your package to pypi. (or delete it)
-Download = "https://pypi.org/project/pyospackage_jacksayshi/#files"
+# Note: update this url when you have published your package to pypi. (or delete it) using Download :
 
 [dependency-groups]
 dev = [
