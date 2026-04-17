@@ -18,13 +18,13 @@ You can install this package into your preferred Python environment using pip:
 $ pip install pyospackage_jacksayshi
 ```
 
-TODO: Add a brief example of how to use the package to this section
 
 To use pyospackage_jacksayshi in your code:
 
 ```python
 >>> import pyospackage_jacksayshi
->>> pyospackage_jacksayshi.hello_world()
+>>> pyospackage_jacksayshi.add_numbers(3, 5) #8
+>>> pyospackage_jacksayshi.sub_numbers(3, 5) #-2
 ```
 
 ## Copyright
