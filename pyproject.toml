@@ -93,6 +93,7 @@ packages = ["src/pyospackage_jacksayshi"]
 ######## Configure pytest for your test suite ########
 [tool.pytest.ini_options]
 testpaths = ["tests"] # Tells pytest what directory tests are in
+pythonpath = ["src"]
 markers = ["raises"] # Tells pytest to not raise a warning if you use @pytest.mark.raises
 
 [tool.coverage.paths]
