@@ -45,6 +45,6 @@ def test_sub_numbers_2():
 
     A single line docstring for tests is generally sufficient.
     """
-    out = sub_numbers(6, "")
+    out = sub_numbers(6, 0)
     expected_out = 6
     assert  out == expected_out, f"Expected {expected_out} but got {out}"
