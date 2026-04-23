@@ -42,4 +42,12 @@ def sub_numbers(a, b):
     and return the result
     
     """
+    # 1. Check that arguments were actually provided (not None)
+    if a is None or b is None:
+        raise ValueError("Both arguments must be provided, got None")
+
+    # 2. Check that both inputs are numbers
+    if not isinstance(a, (int, float)) or not isinstance(b, (int, float)):
+        raise TypeError(f"Expected numbers, got {type(a).__name__} and {type(b).__name__}")
+
     return a-b 

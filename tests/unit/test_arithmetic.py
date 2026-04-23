@@ -8,6 +8,7 @@ module.
 """
 
 from pyospackage_jacksayshi.arithmetic import add_numbers, sub_numbers
+import pytest;
 
 def test_add_numbers_1():
     """
@@ -48,3 +49,13 @@ def test_sub_numbers_2():
     out = sub_numbers(6, 0)
     expected_out = 6
     assert  out == expected_out, f"Expected {expected_out} but got {out}"
+
+def test_sub_numbers_3():
+    """Test that sub_numbers raises TypeError when an argument is missing."""
+    with pytest.raises(TypeError):
+        sub_numbers(6)
+
+def test_sub_numbers_4():
+    """Test that sub_numbers raises TypeError when argument types don't match."""
+    with pytest.raises(TypeError):
+        sub_numbers(6, "0")
